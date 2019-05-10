@@ -1,4 +1,8 @@
-import "./scss/styles.scss";
+import "../scss/styles.scss";
+import 'bootstrap';
+import 'popper.js';
+import $ from 'jquery';
+
 
 $(document).ready(function() {
   $(".header").height($(window).height());
